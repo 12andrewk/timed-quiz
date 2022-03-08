@@ -17,10 +17,10 @@ font-family: Arial;
     text-align: center;
 }
 
-/* #buttonStart {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    margin: auto;
-} */
+#optionDisplay0
+#optionDisplay1
+#optionDisplay2
+#optionDisplay3 {
+    display: none;
+}
+
