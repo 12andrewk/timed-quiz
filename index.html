@@ -11,7 +11,7 @@
 </head>
 
 <body>
-
+    <div class="timer" id="timer"></div>
     <div class="front-page">
         <h1 id="heading">Coding Quiz Challenge</h1>
         <div id="contentFront">
@@ -24,21 +24,20 @@
     </div>
 
     <div>
-        <h1 id="end">Quiz has ended</h1>
+        <h1 id="end" class="ending">Quiz has ended</h1>
     </div>
 
-    <div>
+    <div class="ending">
         <!-- Displays questions -->
         <div id="questionDisplay"></div>
 
         <!-- Displays options -->
-        <button id="optionDisplay0"></button>
-        <button id="optionDisplay1"></button>
-        <button id="optionDisplay2"></button>
-        <button id="optionDisplay3"></button>
+        <button type="button" id="optionDisplay0"></button>
+        <button type="button" id="optionDisplay1"></button>
+        <button type="button" id="optionDisplay2"></button>
+        <button type="button" id="optionDisplay3"></button>
 
         <!-- Displays timer -->
-        <div class="timer"></div>
     </div>
 
     <div class="scoreboard"></div>

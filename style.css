@@ -2,10 +2,22 @@
 font-family: Arial;
 }
 
+#timer {
+    font-size: 50px;
+    position: absolute;
+    top: 0px;
+}
+
 .front-page {
     text-align: center;
     object-position: center;
     margin-top: 20vh;
+}
+
+.ending {
+    text-align: center;
+    object-position: center;
+    margin-top: 15vh;
 }
 
 #heading {
@@ -15,12 +27,14 @@ font-family: Arial;
 #questionDisplay {
     font-size: 25px;
     text-align: center;
+    padding-bottom: 25px;
 }
 
 #optionDisplay0
 #optionDisplay1
 #optionDisplay2
 #optionDisplay3 {
-    display: none;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
